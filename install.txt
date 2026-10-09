@@ -1,0 +1,1 @@
+Install Fabric for Minecraft Java 26.3 with Fabric API, then drop the mod jar in the mods folder. Start a world: you get an Ion Blaster and credit chips. Right-click your shuttle to fly it, shoot raiders, right-click 3 chips to hire an escort.

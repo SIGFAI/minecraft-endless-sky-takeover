@@ -1,0 +1,6 @@
+Moments the clip must show (ticked only when seen in the demo footage):
+[x] 1. Title "ENDLESS SKY TAKEOVER", gas giant with rings and an ocean planet in the dusk sky, escort shuttles with animal pilots, Korath raiders jump in with a flash and a light streak.
+[x] 2. The Ion Blaster fires bolts at raiders: hit flash and sparks, raiders explode, wreckage falls, credit chips drop and fly to the player (HUD credits go up).
+[x] 3. Vanilla interaction: the blaster kills zombies, ejected pilots are real pillagers, wrecks cause vanilla explosions.
+[x] 4. Spend 3 credit chips: an escort shuttle jumps in; board your own shuttle, chase camera, fly up.
+[~] 5. Dogfight the Korath Warlord from the shuttle: the fight runs, but the boss is small in frame and weak to read (known weak moment).
