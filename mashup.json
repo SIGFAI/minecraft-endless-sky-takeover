@@ -1,0 +1,80 @@
+{
+  "id": "sigf/minecraft-endless-sky-takeover",
+  "version": "1.0.0",
+  "name": "Endless Sky Takeover",
+  "tagline": "Bring Endless Sky into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "endlesssky",
+      "role": "guest",
+      "label": "Endless Sky"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-endless-sky-takeover.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-endless-sky-takeover/releases/download/v1.0.0/minecraft-endless-sky-takeover.mrpack",
+        "sha256": "9a5fd9e0b5a9fed61956f8ed9830e2e4582e094ef0545e5d449426e9ad8406b1",
+        "size": 178335
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-endless-sky-takeover.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-endless-sky-takeover/releases/download/v1.0.0/minecraft-endless-sky-takeover.mrpack",
+      "sha256": "9a5fd9e0b5a9fed61956f8ed9830e2e4582e094ef0545e5d449426e9ad8406b1",
+      "size": 178335
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-endless-sky-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-0d6c4097.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T16:56:13.036Z",
+  "server": {
+    "game": "minecraft",
+    "mc": "26.3",
+    "loader": "fabric@0.19.5",
+    "ram_gb": 2,
+    "max_players": 10,
+    "pack": "minecraft-endless-sky-takeover.mrpack"
+  }
+}
